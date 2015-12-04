@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/sidebar.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"/></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+  <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sections" aria-expanded="false">
+        <!--<span class="sr-only"></span>-->
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+  </div>
+</nav>
+<script type="text/javascript">
+  $('body').scrollspy({
+    target: '.bs-docs-sidebar',
+    offset: 40
+  });
+</script>
+<div class="container-fluid">
+  <nav class="collapse navbar-collapse col-xs-3 bs-docs-sidebar" id="sections">
+    <ul id="sidebar" class="nav nav-stacked">
+      <li><a href="#GENERAL">GENERAL</a></li>
+      <li><a href="#RESEARCH">RESEARCH</a></li>
+      <li><a href="#PUBLICATION">PUBLICATION</a></li>
+      <li><a href="#EDUCATION">EDUCATION</a></li>
+    </ul>
+  </nav>
+  <div class="col-xs-9">
+    <section id="GENERAL" class="group">
+      <h3 class="text-center">Anastasia Izmaylova</h3>
+      <p class="text-center"><img src="images/picdig.png" style="width:155px;height:155px;"></p>
+      <p class="text-center"> I am currently a PhD student at Centrum Wiskunde & Informatica (CWI), <br>
+      located at Science Park 123, 1098 XG, Amsterdam, The Netherlands</p>
+    </section>
+    <section id="RESEARCH" class="group">
+      <h4 style="color:#500202;">RESEARCH</h4>
+      I am interested in various aspects of developing programming languages and related tool support: parsing, 
+      interpreters, compilers, language semantics, refactoring. Since 1st of March 2011, I have been working in the Software Analysis 
+      and Transformation group at CWI. <br/>
+      <h5 style="color:#500202;">RECENT PROJECTS:</h5>
+
+      <p>
+      <a href="#">Iguana parsing framework</a>: I am one of the two main developers and am currently full-time working on the Iguana parsing framework. Iguana is a general parsing framework that supports data-dependent grammars. Iguana is a research project with a number of recent publications. So far, we have mostly been using Iguana to validate our research results. Iguana has features, making it distinct from other parsing tool, and our goal is to make Iguana a practical, widely-used parsing framework, also featuring full tool support. We are currently focused on achieving this!</p>
+
+      <p><a href="#">Meerkat library</a>: I am one of the two main developers of a parser combinator library in Scala for parsing real programming languages. Our Meerkat library supports all context-free grammars, which implies support for left recursion and runtime performance guarantees. Meerkat does not rely on a traditional-sense general parsing algorithm such as Earley, GLR or GLL. Instead, its functional formulation provides a direct embedding into the host language, where a parser is a normal function. While developing the Meerkat library, we used our insights and experiences with Iguana, for example, to implement <i>declarative</i> operator precedence for parser combinators. </p>
+    </section>
+    <section id="PUBLICATION" class="group">
+     <h4 style="color:#500202;">PUBLICATION</h4>
+<p>Ali Afroozeh and Anastasia Izmaylova. Operator Precedence for Data-Dependent Grammars. Accepted to PEPM 2016.</p>
+<p>Anastasia Izmaylova, Ali Afroozeh, Tijs van der Storm. Practical, General Parser Combinators. Accepted to PEPM 2016.</p>
+<p>Ali Afroozeh and Anastasia Izmaylova. One Parser to Rule Them All. Onward! 2015, SPLASH 2015.</p>
+<p>Ali Afroozeh and Anastasia Izmaylova. Faster, Practical GLL Parsers. Compiler Construction 2015.</p>
+
+ 
+    </section>
+    <section id="EDUCATION" class="group">
+      <h4 style="color:#500202;">EDUCATION</h4>
+      Coming soon ...
+    </section>
+  </div>
+</div>
+    </div>
+  </body>
+</html>
+
