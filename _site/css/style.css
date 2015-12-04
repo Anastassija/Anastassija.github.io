@@ -1,11 +1,13 @@
 @media (min-width: 800px){
   .navbar-default {
     border-color: transparent;
+    background:transparent;
+    -webkit-box-shadow: none;
   }
 }
 body {
   padding-top: 12px;
-  width: 900px;
+  width: 920px;
   margin: 0 auto; 
   font-size: 15px;
 }
@@ -16,11 +18,11 @@ body {
   background-color: #fff;
 }
 .col-xs-3 {
-  width: 18%;
+  width: 20%;
 }
 
 .col-xs-9 {
-  width: 82%;
+  width: 75%;
 }
 
 #sidebar {
@@ -31,11 +33,11 @@ body {
 }
 
 #sidebar .nav {
-  width: 95%;
+  width: 90%;
 }
 #sidebar li {
   border:0 #f2f2f2 solid;
-  border-bottom-width:1px;
+  border-bottom-width:0px;
 }
 
 
