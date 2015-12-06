@@ -45,13 +45,15 @@
       <p><a href="#">Meerkat library</a>: I am one of the main developers of a parser combinator library in Scala for parsing real programming languages. Our Meerkat library supports all context-free grammars, which implies support for left recursion and runtime performance guarantees. Meerkat does not rely on a traditional-sense general parsing algorithm such as Earley, GLR or GLL. Instead, its functional formulation provides a direct embedding into the host language, where a parser is a normal function. While developing the Meerkat library, we used our insights and experiences with Iguana, for example, to implement <i>declarative</i> operator precedence for parser combinators. </p>
 
       <p><a href="#">Rascal compiler</a>: I am one of the main developers of the Rascal compiler. Rascal is a language for metaprogramming, which has been developed in the SWAT group at CWI and has its root in ASF+SDF. Rascal is an impure functional programming language with pattern matching as one of the central concepts. Rascal supports both concrete and abstract pattern matching, also allowing backtracking and deep matching. More forms of patterns will be added in the future. Almost each feature in Rascal interacts with pattern matching. Maintaining and evolving implementation of such a language is not easy. To manage the complexity of Rascal and its implementation, we implemented and used two intermediate languages in the Rascal compiler. One of them is a high-level, small intermediate language, muRascal, with coroutines as a central feature. In particular, the use of muRascal allows us to achieve compositional compilation of pattern matching.</p>
+      <p>During my first year as a PhD student, I was working on an approach to extensible implementation of refactoring. This relates to cases when a new language feature is added to a language, e.g., extending Java with generics, and when the existing implementation of all refactoring has to be extended to accommodate this change. To achieve this kind of extensibility, we used a monadic approach, well-known in modular language semantics and modular interpreters. As a case study, we took an existing, constraint-based approach to refactoring, implemented some common Java refactoring in a monadic style, and then extended their implementation for Java with generics. </p>
+      <p>As part of SWAT team, I am also a contributor to the Rascal interpreter.</p>
     </section>
     <section id="PUBLICATIONS" class="group">
      {% include publications.html %} 
     </section>
     <section id="PRESENTATIONS" class="group">
       <h4 style="color:#500202;">PRESENTATIONS</h4>
-      Coming soon ...
+      {% include presentations.html %} 
     </section>
     <section id="EDUCATION" class="group">
       <h4 style="color:#500202;">EDUCATION</h4>
