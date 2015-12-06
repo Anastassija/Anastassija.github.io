@@ -5,7 +5,7 @@
     -webkit-box-shadow: none;
   }
 
-    body {
+  body {
     padding-top: 12px;
     width: 920px;
     margin: 0 auto; 
@@ -40,14 +40,9 @@
     border-bottom-width:0px;
   }
 
-
-  p {
-    text-align: justify;
-  }
-
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+/*@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
   body {
     padding-top: 12px;
     width: 320px;
@@ -55,6 +50,6 @@
     font-size: 12px;
   }
 }
-
+*/
 
 
