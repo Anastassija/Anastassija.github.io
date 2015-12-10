@@ -44,40 +44,39 @@
     <section id="GENERAL" class="group">
       <h3 class="text-center">Anastasia Izmaylova</h3>
       <p class="text-center"><img src="images/picdig.png" style="width:155px;height:155px;"></p>
-      <p class="text-center"> I am currently a PhD student at Centrum Wiskunde & Informatica (CWI), located at <br>
+      <p class="text-center"> I am currently a PhD student at Centrum Wiskunde & Informatica, located at <br>
       Science Park 123, 1098 XG, Amsterdam, The Netherlands</p>
       <p>You can find my complete CV <a href="">here</a>.</p>
     </section>
     <section id="RESEARCH" class="group">
       <h4 style="color:#500202;">RESEARCH</h4>
-      <p style="text-align: justify;">I am interested in various aspects of developing programming languages and related tool support: parsing, 
-      interpreters, compilers, language semantics, refactoring. Since 1st of March 2011, I have been working in the Software Analysis and Transformation (SWAT) group at CWI. </p>
+      <p style="text-align: justify;">I am interested in various aspects of developing programming languages and their tool support: parsing, 
+      interpreters, compilers, language semantics, refactoring. Since March 2011, I have been working in the Software Analysis and Transformation (<a href="https://www.cwi.nl/research-groups/software-analysis-and-transformation">SWAT</a>) group at Centrum Wiskunde & Informatica (<a href="https://www.cwi.nl">CWI</a>). </p>
       <h5 style="color:#500202;">RECENT PROJECTS:</h5>
 
       <p style="text-align: justify;">
-      <a href="http://iguana-parser.github.io">Iguana parsing framework</a>: I am one of the main developers and currently full-time working on the Iguana parsing framework. Iguana is a general parsing framework that supports data-dependent grammars. Iguana is a research project with a number of recent publications. So far, we have mostly been using Iguana to validate our research results. Iguana has a number of distinct features, making it different from other parsing tools. Our goal is also to make Iguana a practical, widely-used parsing framework, also featuring full tool support. We are currently focused on achieving this!</p>
+      <a href="http://iguana-parser.github.io">Iguana parsing framework</a>: I am one of the main developers and currently mostly working on the Iguana parsing framework. Iguana is a general parsing framework that supports data-dependent grammars. Iguana is a research project with a number of recent publications. Iguana has a number of distinct features, making it different from other parsing tools. Iguana is based on faster GLL parsing and supports the core data-dependent features, such as parameterized nonterminals, expressions, variable binding, and constraints. In addition, it provides out-of-the-box high-level disambiguation constructs and enables user-defined ones. So far, we have mostly been using Iguana to validate our research results. However, our goal is to make Iguana a practical  parsing framework with proper tool support. We are currently focused on achieving this!</p>
 
-      <p style="text-align: justify;"><a href="https://github.com/meerkat-parser">Meerkat library</a>: I am one of the main developers of a parser combinator library in Scala for parsing real programming languages. Our Meerkat library supports all context-free grammars, which implies support for left recursion and runtime performance guarantees. Meerkat does not rely on a traditional-sense general parsing algorithm such as Earley, GLR or GLL. Instead, its functional formulation provides a direct embedding into the host language, where a parser is a normal function. While developing the Meerkat library, we used our insights and experiences with Iguana, for example, to implement <i>declarative</i> operator precedence for parser combinators. </p>
+      <p style="text-align: justify;"><a href="https://github.com/meerkat-parser">Meerkat library</a>: I am one of the main developers of a parser combinator library in Scala for parsing real programming languages. Our Meerkat library supports all context-free grammars, which implies support for left recursion and runtime performance guarantees. Meerkat does not rely on a traditional-sense general parsing algorithm such as Earley, GLR or GLL. Instead, its functional formulation provides a direct embedding into the host language, where a parser is a normal function. While developing the Meerkat library, we used our insights and experiences with Iguana, for example, to implement a <i>declarative</i> operator precedence for parser combinators. </p>
 
-      <p style="text-align: justify;"><a href="http://www.rascal-mpl.org">Rascal</a> compiler: I am one of the main developers of the Rascal compiler. Rascal is a language for metaprogramming, which has been developed in the SWAT group at CWI and has its root in ASF+SDF. Rascal is an impure functional programming language with pattern matching as one of the central concepts. Rascal supports both concrete and abstract pattern matching, also allowing backtracking and deep matching. More forms of patterns will be added in the future. Almost each feature in Rascal interacts with pattern matching. Maintaining and evolving implementation of such a language is not easy. To manage the complexity of Rascal and its implementation, we implemented and used two intermediate languages in the Rascal compiler. One of them is a high-level, small intermediate language, muRascal, with coroutines as a central feature. In particular, the use of muRascal allows us to achieve compositional compilation of pattern matching.</p>
+      <p style="text-align: justify;"><a href="http://www.rascal-mpl.org">Rascal</a> compiler: I am one of the main developers of the Rascal compiler. Rascal is a language for metaprogramming, which has been developed in the SWAT group at CWI and has its root in the ASF+SDF Meta Environment. Rascal is an impure functional programming language with pattern matching as one of the central concepts. Rascal supports both concrete and abstract pattern matching, also allowing backtracking and deep matching. More forms of patterns are planned in the future. Almost each feature in Rascal interacts with pattern matching. Maintaining and evolving implementation of such a language is not easy. To manage the complexity of Rascal and its implementation, we implemented two intermediate languages in the Rascal compiler. One of them is a small high-level intermediate language, muRascal, with coroutines as a central feature. In particular, the use of muRascal let us achieve compositional compilation of pattern matching.</p>
       <p style="text-align: justify;">During my first year as a PhD student, I was working on an approach to extensible implementation of refactoring. This relates to cases when a new language feature is added to a language, e.g., extending Java with generics, and when the existing implementation of all refactoring has to be extended to accommodate this change. To achieve this kind of extensibility, we used a monadic approach, well-known in modular language semantics and modular interpreters. As a case study, we took an existing, constraint-based approach to refactoring, implemented some common Java refactoring in a monadic style, and then extended their implementation for Java with generics. </p>
       <p style="text-align: justify;">As part of SWAT team, I am also a contributor to the <a href="http://www.rascal-mpl.org">Rascal</a> interpreter.</p>
     </section>
     <section id="PUBLICATIONS" class="group">
      <h4 style="color:#500202;">PUBLICATIONS</h4>
-<p>Ali Afroozeh and Anastasia Izmaylova. <b>Operator Precedence for Data-Dependent Grammars</b>. Accepted to Symposium on Partial Evaluation and Program Manipulation (PEPM) 2016. <a href="">PDF</a></p>
-<p>Anastasia Izmaylova, Ali Afroozeh, Tijs van der Storm. <b>Practical, General Parser Combinators</b>. Accepted to Symposium on Partial Evaluation and Program Manipulation (PEPM) 2016. <a href="">PDF</a></p>
-<p>Ali Afroozeh and Anastasia Izmaylova. <b>One Parser to Rule Them All</b>. In Proceedings of the 2015 ACM International Symposium on New Ideas, New Paradigms, and Reflections on Programming & Software (Onward!), SPLASH'15, pages 151-170. ACM, 2015. <a href="">PDF</a></p>
-<p>Ali Afroozeh and Anastasia Izmaylova. <b>Faster, Practical GLL Parsing</b>. In Compiler Construction (CC), 24th International Conference, LNCS 9031, pages 89-108. Springer, 2015. <a href="">PDF</a></p>
-<p>Miguel Garcia, Anastasia Izmaylova and Sibylle Schupp. <b>Extending Scala with Database Query Capability</b>. In the Journal of Object Technology, July 2010. <a href="">PDF</a></p>
+<p>Ali Afroozeh and Anastasia Izmaylova. <b>Operator Precedence for Data-Dependent Grammars</b>. Accepted for publication to Symposium on Partial Evaluation and Program Manipulation (PEPM) 2016. <a href="https://cdn.rawgit.com/iguana-parser/papers/master/pepm16.pdf">PDF</a></p>
+<p>Anastasia Izmaylova, Ali Afroozeh, Tijs van der Storm. <b>Practical, General Parser Combinators</b>. Accepted for publication to Symposium on Partial Evaluation and Program Manipulation (PEPM) 2016. <a href="https://cdn.rawgit.com/meerkat-parser/papers/master/pepm16.pdf">PDF</a></p>
+<p>Ali Afroozeh and Anastasia Izmaylova. <b>One Parser to Rule Them All</b>. In Proceedings of the 2015 ACM International Symposium on New Ideas, New Paradigms, and Reflections on Programming & Software (Onward!), SPLASH'15, pages 151-170. ACM, 2015. <a href="https://cdn.rawgit.com/iguana-parser/papers/master/onward15.pdf">PDF</a></p>
+<p>Ali Afroozeh and Anastasia Izmaylova. <b>Faster, Practical GLL Parsing</b>. In Compiler Construction (CC), 24th International Conference, LNCS 9031, pages 89-108. Springer, 2015. <a href="https://cdn.rawgit.com/iguana-parser/papers/master/cc15.pdf">PDF</a></p>
+<p>Miguel Garcia, Anastasia Izmaylova and Sibylle Schupp. <b>Extending Scala with Database Query Capability</b>. In the Journal of Object Technology, July 2010. <a href="http://www.jot.fm/issues/issue_2010_07/article3.pdf">PDF</a></p>
 <p>Stamatis Karnouskos and Anastasia Izmaylova. <b>Simulation of Web Service Enabled Smart Meters in an Event-Based Infrastructure</b>. SAP Research, Karlsruhe, Germany. In INDIN'09: Proceedings of the 7th IEEE International Conference on Industrial Informatics, pages 125-130, UK, 2009. <a href="">PDF</a></p>
-<h5 style="color:#500202;">DRAFTS:</h5>
-<p>Ali Afroozeh and Anastasia Izmaylova. <b>A Practical Data-dependent Parsing Framework</b>. Submitted, under review.
+<h5 style="color:#500202;">SUBMITTED DRAFTS AND TECHNICAL REPORTS:</h5>
+<p>Ali Afroozeh and Anastasia Izmaylova. <b>A Practical Data-dependent Parsing Framework</b>. Under review.
 <p>Anastasia Izmaylova and Paul Klint. <b>Using Coroutines for Modular Compilation of Pattern Matching</b>. To be submitted.</p>
-<h5 style="color:#500202;">TECHNICAL REPORTS:</h5>
-<p>Miguel Garcia and Anastasia Izmaylova. <b>Compiling LINQ and a Scala subset into SQL: 1999</b>. Technical report, Institute for Software Systems, Hamburg University of Technology, Germany, Sep. 2009. <a href="">PDF</a></p>
+<p>Miguel Garcia and Anastasia Izmaylova. <b>Compiling LINQ and a Scala subset into SQL: 1999</b>. Technical report, Institute for Software Systems, Hamburg University of Technology, Germany, Sep. 2009.</p>
 <h5 style="color:#500202;">THESES:</h5>
-<p>Anastasia Izmaylova. <b>Program Transformation in the Scala programming language</b>. Master thesis, Hamburg University of Technology, Germany, Institute for Software Systems, October 2009. <a href="">PDF</a></p>
+<p>Anastasia Izmaylova. <b>Program Transformation in the Scala programming language</b>. Master thesis, Hamburg University of Technology, Germany, Institute for Software Systems, October 2009. </p>
 <p>Anastasia Izmaylova. <b>Calculation and realization of three dimensionally curved mechanical trajectories of an unmanned vehicle</b>. Dipl.-Eng. thesis, Bauman Moscow State Technical University, Russia, Department of Mathematical Modelling, July 2009.</p>
 
  
@@ -85,9 +84,9 @@
     <section id="WORKSHOPS" class="group">
       <h4 style="color:#500202;">WORKSHOPS</h4>
       <p>Presentation at Onward! 2015, SPLASH 2015, Pittsburgh, US. <b><i>One Parser to Rule Them All</i></b>. <a href="https://speakerdeck.com/anastassija/one-parser-to-rule-them-all">Slides</a>. </p>
-<p>Talk at Parsing@SLE 2015, SPLASH 2015, Pittsburgh, US. <b><i>Operator Precedence for Parser Combinators</i></b>. Slides</p>
+<p>Talk at Parsing@SLE 2015, co-located with SPLASH 2015, Pittsburgh, US. <b><i>Operator Precedence for Parser Combinators</i></b>.</p>
 <p>Talk at ScalaDays 2015, Amsterdam, The Netherlands. <b><i>Meerkat parsers: a general parser combinator library for real programming languages</i></b> (with Ali Afroozeh). <a href="https://speakerdeck.com/anastassija/meerkat-parsers-a-general-parser-combinator-library-for-real-programming-languages">Slides</a>. </p>
-<p>Talk at Parsing@SLE 2014.</p> 
+<p>Talk at Parsing@SLE 2014, co-located with ASE 2014, Sweden.</p> 
     </section>
   </div>
 </div>

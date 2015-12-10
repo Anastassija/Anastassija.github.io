@@ -30,10 +30,10 @@
 .bs-docs-sidebar .nav>.active>a, 
 .bs-docs-sidebar .nav>li>a:hover, 
 .bs-docs-sidebar .nav>li>a:focus {
-    color: #292929;                 
+    color: #500202;                 
     text-decoration: none;          
     background-color: transparent;  
-    border-left-color: #292929; 
+    border-left-color: #500202; 
 }
 
 /* all active links */
