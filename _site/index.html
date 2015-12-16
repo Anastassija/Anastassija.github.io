@@ -37,7 +37,7 @@
       <li><a href="#GENERAL">GENERAL</a></li>
       <li><a href="#RESEARCH">RESEARCH</a></li>
       <li><a href="#PUBLICATIONS">PUBLICATIONS</a></li>
-      <li><a href="#WORKSHOPS">WORKSHOPS</a></li>
+      <li><a href="#TALKS">TALKS</a></li>
     </ul>
   </nav>
   <div class="col-xs-9">
@@ -50,18 +50,18 @@
     </section>
     <section id="RESEARCH" class="group">
       <h4 style="color:#500202;">RESEARCH</h4>
-      <p style="text-align: justify;">I am interested in various aspects of developing programming languages and their tool support: parsing, 
+      <p>I am interested in various aspects of developing programming languages and their tool support: parsing, 
       interpreters, compilers, language semantics, refactoring. Since March 2011, I have been working in the Software Analysis and Transformation (<a href="https://www.cwi.nl/research-groups/software-analysis-and-transformation">SWAT</a>) group at Centrum Wiskunde & Informatica (<a href="https://www.cwi.nl">CWI</a>). </p>
       <h5 style="color:#500202;">RECENT PROJECTS:</h5>
 
-      <p style="text-align: justify;">
+      <p >
       <a href="http://iguana-parser.github.io">Iguana parsing framework</a>: I am one of the main developers and currently mostly working on the Iguana parsing framework. Iguana is a general parsing framework that supports data-dependent grammars. Iguana is a research project with a number of recent publications. Iguana has a number of distinct features, making it different from other parsing tools. Iguana is based on faster GLL parsing and supports the core data-dependent features, such as parameterized nonterminals, expressions, variable binding, and constraints. In addition, it provides out-of-the-box high-level disambiguation constructs and enables user-defined ones. So far, we have mostly been using Iguana to validate our research results. However, our goal is to make Iguana a practical  parsing framework with proper tool support. We are currently focused on achieving this!</p>
 
-      <p style="text-align: justify;"><a href="https://github.com/meerkat-parser">Meerkat library</a>: I am one of the main developers of a parser combinator library in Scala for parsing real programming languages. Our Meerkat library supports all context-free grammars, which implies support for left recursion and runtime performance guarantees. Meerkat does not rely on a traditional-sense general parsing algorithm such as Earley, GLR or GLL. Instead, its functional formulation provides a direct embedding into the host language, where a parser is a normal function. While developing the Meerkat library, we used our insights and experiences with Iguana, for example, to implement a <i>declarative</i> operator precedence for parser combinators. </p>
+      <p><a href="https://github.com/meerkat-parser">Meerkat library</a>: I am one of the main developers of a parser combinator library in Scala for parsing real programming languages. Our Meerkat library supports all context-free grammars, which implies support for left recursion and runtime performance guarantees. Meerkat does not rely on a traditional-sense general parsing algorithm such as Earley, GLR or GLL. Instead, its functional formulation provides a direct embedding into the host language, where a parser is a normal function. While developing the Meerkat library, we used our insights and experiences with Iguana, for example, to implement a <i>declarative</i> operator precedence for parser combinators. </p>
 
-      <p style="text-align: justify;"><a href="http://www.rascal-mpl.org">Rascal</a> compiler: I am one of the main developers of the Rascal compiler. Rascal is a language for metaprogramming, which has been developed in the SWAT group at CWI and has its root in the ASF+SDF Meta Environment. Rascal is an impure functional programming language with pattern matching as one of the central concepts. Rascal supports both concrete and abstract pattern matching, also allowing backtracking and deep matching. More forms of patterns are planned in the future. Almost each feature in Rascal interacts with pattern matching. Maintaining and evolving implementation of such a language is not easy. To manage the complexity of Rascal and its implementation, we implemented two intermediate languages in the Rascal compiler. One of them is a small high-level intermediate language, muRascal, with coroutines as a central feature. In particular, the use of muRascal let us achieve compositional compilation of pattern matching.</p>
-      <p style="text-align: justify;">During my first year as a PhD student, I was working on an approach to extensible implementation of refactoring. This relates to cases when a new language feature is added to a language, e.g., extending Java with generics, and when the existing implementation of all refactoring has to be extended to accommodate this change. To achieve this kind of extensibility, we used a monadic approach, well-known in modular language semantics and modular interpreters. As a case study, we took an existing, constraint-based approach to refactoring, implemented some common Java refactoring in a monadic style, and then extended their implementation for Java with generics. </p>
-      <p style="text-align: justify;">As part of SWAT team, I am also a contributor to the <a href="http://www.rascal-mpl.org">Rascal</a> interpreter.</p>
+      <p><a href="http://www.rascal-mpl.org">Rascal</a> compiler: I am one of the main developers of the Rascal compiler. Rascal is a language for metaprogramming, which has been developed in the SWAT group at CWI and has its root in the ASF+SDF Meta Environment. Rascal is an impure functional programming language with pattern matching as one of the central concepts. Rascal supports both concrete and abstract pattern matching, also allowing backtracking and deep matching. More forms of patterns are planned in the future. Almost each feature in Rascal interacts with pattern matching. Maintaining and evolving implementation of such a language is not easy. To manage the complexity of Rascal and its implementation, we implemented two intermediate languages in the Rascal compiler. One of them is a small high-level intermediate language, muRascal, with coroutines as a central feature. In particular, the use of muRascal let us achieve compositional compilation of pattern matching.</p>
+      <p>During my first year as a PhD student, I was working on an approach to extensible implementation of refactoring. This relates to cases when a new language feature is added to a language, e.g., extending Java with generics, and when the existing implementation of all refactoring has to be extended to accommodate this change. To achieve this kind of extensibility, we used a monadic approach, well-known in modular language semantics and modular interpreters. As a case study, we took an existing, constraint-based approach to refactoring, implemented some common Java refactoring in a monadic style, and then extended their implementation for Java with generics. </p>
+      <p>As part of SWAT team, I am also a contributor to the <a href="http://www.rascal-mpl.org">Rascal</a> interpreter.</p>
     </section>
     <section id="PUBLICATIONS" class="group">
      <h4 style="color:#500202;">PUBLICATIONS</h4>
@@ -81,12 +81,13 @@
 
  
     </section>
-    <section id="WORKSHOPS" class="group">
-      <h4 style="color:#500202;">WORKSHOPS</h4>
-      <p>Presentation at Onward! 2015, SPLASH 2015, Pittsburgh, US. <b><i>One Parser to Rule Them All</i></b>. <a href="https://speakerdeck.com/anastassija/one-parser-to-rule-them-all">Slides</a>. </p>
-<p>Talk at Parsing@SLE 2015, co-located with SPLASH 2015, Pittsburgh, US. <b><i>Operator Precedence for Parser Combinators</i></b>.</p>
-<p>Talk at ScalaDays 2015, Amsterdam, The Netherlands. <b><i>Meerkat parsers: a general parser combinator library for real programming languages</i></b> (with Ali Afroozeh). <a href="https://speakerdeck.com/anastassija/meerkat-parsers-a-general-parser-combinator-library-for-real-programming-languages">Slides</a>. </p>
-<p>Talk at Parsing@SLE 2014, co-located with ASE 2014, Sweden.</p> 
+    <section id="TALKS" class="group">
+      <h4 style="color:#500202;">TALKS</h4>
+      <p>Presenter at Onward! 2015, SPLASH 2015, Pittsburgh, USA. <b><i>One Parser to Rule Them All</i></b>. <a href="https://speakerdeck.com/anastassija/one-parser-to-rule-them-all">Slides</a>. </p>
+<p>Speaker at Parsing@SLE 2015, co-located with SPLASH 2015, Pittsburgh, USA. <b><i>Operator Precedence for Parser Combinators</i></b>.</p>
+<p>Speaker at ScalaDays 2015, Amsterdam, The Netherlands. <b><i>Meerkat parsers: a general parser combinator library for real programming languages</i></b> (with Ali Afroozeh). 
+<a href="https://speakerdeck.com/anastassija/meerkat-parsers-a-general-parser-combinator-library-for-real-programming-languages">Slides</a> and <a href="https://www.parleys.com/tutorial/meerkat-parsers-general-parser-combinator-library-real-programming-languages">Video</a>. </p>
+<p>Speaker at Parsing@SLE 2014, co-located with ASE 2014, Sweden.</p> 
     </section>
   </div>
 </div>
